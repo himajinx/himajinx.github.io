@@ -1,15 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-05T02:24:08+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">勉強メモ</title><subtitle>何か書きたい</subtitle><entry xml:lang="ja"><title type="html">MathematicaからMarkdownを生成するテスト</title><link href="http://localhost:4000/mathematica/2023/12/05/mmakara.html" rel="alternate" type="text/html" title="MathematicaからMarkdownを生成するテスト" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/mathematica/2023/12/05/mmakara</id><content type="html" xml:base="http://localhost:4000/mathematica/2023/12/05/mmakara.html"><![CDATA[<h4 id="m2mdを使ってみた"><a href="https://github.com/kubaPod/M2MD">M2MD</a>を使ってみた<br /></h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-05T04:21:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">勉強メモ</title><subtitle>何か書きたい</subtitle><entry xml:lang="ja"><title type="html">勉強・研究は体に悪いのではないか？</title><link href="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html" rel="alternate" type="text/html" title="勉強・研究は体に悪いのではないか？" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning</id><content type="html" xml:base="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html"><![CDATA[<p>タイトルそのままだが…</p>
+
+<p><b>研究の副作用</b></p>
+<ul>
+  <li>対人関係を忘れる</li>
+  <li>時間を浪費する</li>
+  <li>運動する時間が無い</li>
+</ul>
+
+<p><b>結果として</b></p>
+<ul>
+  <li>モテない</li>
+  <li>他の可能性を追求する時間が無い</li>
+  <li>太る</li>
+</ul>
+
+<p>女性にも男性にも当てはまりますよ。<br />
+うーん、こういう損な役回りだからこそ女性が全然進出しないのでは？<br />
+「発展した社会でわざわざこんなクソポジやる女性はおるまい、薄汚い豚にこそ相応しい」って声が聞こえてくる<br />
+私は今のテーマ(準変分不等式)を終えたら足を洗います。<br />
+その後の優先順位は社会活動を優先しようと思います。<br /></p>]]></content><author><name></name></author><category term="人生" /><summary type="html"><![CDATA[タイトルそのままだが…]]></summary></entry><entry xml:lang="ja"><title type="html">MathematicaからMarkdownを生成するテスト</title><link href="http://localhost:4000/mathematica/2023/12/05/mmakara.html" rel="alternate" type="text/html" title="MathematicaからMarkdownを生成するテスト" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/mathematica/2023/12/05/mmakara</id><content type="html" xml:base="http://localhost:4000/mathematica/2023/12/05/mmakara.html"><![CDATA[<h4 id="m2mdを使ってみた"><a href="https://github.com/kubaPod/M2MD">M2MD</a>を使ってみた<br /></h4>
 <h5 id="感想画像は別途処理しないと厳しい">感想:画像は別途処理しないと厳しい</h5>
 
 <h1 id="mathematicaからmarkdownを生成するテスト">MathematicaからMarkdownを生成するテスト<br /></h1>
+<p>– ドイツ軍戦車問題を例に</p>
 
-<p><strong>ドイツ軍戦車問題を例に</strong></p>
-
-<h3 id="数式はこうなる">数式はこうなる</h3>
+<h2 id="数式はこうなる">数式はこうなる</h2>
 
 <p><img src="https://himajinx.github.io/img/1hdy10szf78x9.png" alt="1hdy10szf78x9" /></p>
 
-<h3 id="mcmcを書いてみる">MCMCを書いてみる</h3>
+<h2 id="mcmcを書いてみる">MCMCを書いてみる</h2>
 
 <figure class="highlight"><pre><code class="language-mathematica" data-lang="mathematica"><span class="w">    </span><span class="nv">sim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Compile</span><span class="p">[{{</span><span class="nv">m</span><span class="o">,</span><span class="w"> </span><span class="o">_</span><span class="nb">Real</span><span class="p">}}</span><span class="o">,</span><span class="w"> </span><span class="nv">maxv</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">RandomInteger</span><span class="p">[</span><span class="m">100</span><span class="p">]</span><span class="o">;</span><span class="w"> 
       </span><span class="nv">nmxv</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">RandomInteger</span><span class="p">[</span><span class="nv">maxv</span><span class="o">,</span><span class="w"> </span><span class="m">3</span><span class="p">]</span><span class="o">;</span><span class="w"> 
@@ -21,7 +40,7 @@
 
 <p><img src="https://himajinx.github.io/img/0dysxsh7rm7ma.png" alt="0dysxsh7rm7ma" /></p>
 
-<h3 id="シュミレーション">シュミレーション</h3>
+<h2 id="シュミレーション">シュミレーション</h2>
 
 <figure class="highlight"><pre><code class="language-mathematica" data-lang="mathematica"><span class="w">    </span><span class="nv">smpl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">sim</span><span class="p">[</span><span class="nb">Range</span><span class="p">[</span><span class="m">100000</span><span class="p">]]</span><span class="o">;</span><span class="w">
     </span><span class="nv">smpl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Cases</span><span class="p">[</span><span class="nv">smpl</span><span class="o">,</span><span class="w"> </span><span class="p">{</span><span class="nv">x</span><span class="o">_,</span><span class="w"> </span><span class="nv">y</span><span class="o">_</span><span class="p">}</span><span class="w"> </span><span class="o">/;</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="m">100</span><span class="p">]</span><span class="o">;</span><span class="w">

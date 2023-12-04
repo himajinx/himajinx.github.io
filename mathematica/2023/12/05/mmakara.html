@@ -51,14 +51,13 @@
 <h5 id="感想画像は別途処理しないと厳しい">感想:画像は別途処理しないと厳しい</h5>
 
 <h1 id="mathematicaからmarkdownを生成するテスト">MathematicaからMarkdownを生成するテスト<br /></h1>
+<p>– ドイツ軍戦車問題を例に</p>
 
-<p><strong>ドイツ軍戦車問題を例に</strong></p>
-
-<h3 id="数式はこうなる">数式はこうなる</h3>
+<h2 id="数式はこうなる">数式はこうなる</h2>
 
 <p><img src="https://himajinx.github.io/img/1hdy10szf78x9.png" alt="1hdy10szf78x9" /></p>
 
-<h3 id="mcmcを書いてみる">MCMCを書いてみる</h3>
+<h2 id="mcmcを書いてみる">MCMCを書いてみる</h2>
 
 <figure class="highlight"><pre><code class="language-mathematica" data-lang="mathematica"><span class="w">    </span><span class="nv">sim</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Compile</span><span class="p">[{{</span><span class="nv">m</span><span class="o">,</span><span class="w"> </span><span class="o">_</span><span class="nb">Real</span><span class="p">}}</span><span class="o">,</span><span class="w"> </span><span class="nv">maxv</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">RandomInteger</span><span class="p">[</span><span class="m">100</span><span class="p">]</span><span class="o">;</span><span class="w"> 
       </span><span class="nv">nmxv</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">RandomInteger</span><span class="p">[</span><span class="nv">maxv</span><span class="o">,</span><span class="w"> </span><span class="m">3</span><span class="p">]</span><span class="o">;</span><span class="w"> 
@@ -70,7 +69,7 @@
 
 <p><img src="https://himajinx.github.io/img/0dysxsh7rm7ma.png" alt="0dysxsh7rm7ma" /></p>
 
-<h3 id="シュミレーション">シュミレーション</h3>
+<h2 id="シュミレーション">シュミレーション</h2>
 
 <figure class="highlight"><pre><code class="language-mathematica" data-lang="mathematica"><span class="w">    </span><span class="nv">smpl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">sim</span><span class="p">[</span><span class="nb">Range</span><span class="p">[</span><span class="m">100000</span><span class="p">]]</span><span class="o">;</span><span class="w">
     </span><span class="nv">smpl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">Cases</span><span class="p">[</span><span class="nv">smpl</span><span class="o">,</span><span class="w"> </span><span class="p">{</span><span class="nv">x</span><span class="o">_,</span><span class="w"> </span><span class="nv">y</span><span class="o">_</span><span class="p">}</span><span class="w"> </span><span class="o">/;</span><span class="w"> </span><span class="nv">y</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="o">-</span><span class="m">100</span><span class="p">]</span><span class="o">;</span><span class="w">
