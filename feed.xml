@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-05T04:21:46+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">勉強メモ</title><subtitle>何か書きたい</subtitle><entry xml:lang="ja"><title type="html">勉強・研究は体に悪いのではないか？</title><link href="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html" rel="alternate" type="text/html" title="勉強・研究は体に悪いのではないか？" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning</id><content type="html" xml:base="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html"><![CDATA[<p>タイトルそのままだが…</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-12-13T08:55:53+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">勉強メモ</title><subtitle>何か書きたい</subtitle><entry xml:lang="ja"><title type="html">勉強・研究は体に悪いのではないか？</title><link href="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html" rel="alternate" type="text/html" title="勉強・研究は体に悪いのではないか？" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning</id><content type="html" xml:base="http://localhost:4000/%E4%BA%BA%E7%94%9F/2023/12/05/cleaning.html"><![CDATA[<p>タイトルそのままだが…</p>
 
 <p><b>研究の副作用</b></p>
 <ul>
@@ -50,9 +50,42 @@
     </span><span class="nv">smpl</span><span class="p">[[</span><span class="o">;;</span><span class="w"> </span><span class="o">,</span><span class="w"> </span><span class="m">2</span><span class="p">]]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">smpl</span><span class="p">[[</span><span class="o">;;</span><span class="w"> </span><span class="o">,</span><span class="w"> </span><span class="m">2</span><span class="p">]]</span><span class="o">/</span><span class="nb">Total</span><span class="p">[</span><span class="nv">smpl</span><span class="p">[[</span><span class="o">;;</span><span class="w"> </span><span class="o">,</span><span class="w"> </span><span class="m">2</span><span class="p">]]]</span><span class="o">;</span><span class="w">
     </span><span class="nv">smpl</span><span class="w"> </span><span class="o">//</span><span class="w"> </span><span class="nb">ListPlot</span></code></pre></figure>
 
-<p><img src="https://himajinx.github.io/img/0zunk8xcqygu2.png" alt="0zunk8xcqygu2" /></p>]]></content><author><name></name></author><category term="Mathematica" /><summary type="html"><![CDATA[M2MDを使ってみた 感想:画像は別途処理しないと厳しい]]></summary></entry><entry xml:lang="ja"><title type="html">実数差分の実装 in Mathematica</title><link href="http://localhost:4000/mathematica/2023/04/28/ffd.html" rel="alternate" type="text/html" title="実数差分の実装 in Mathematica" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/mathematica/2023/04/28/ffd</id><content type="html" xml:base="http://localhost:4000/mathematica/2023/04/28/ffd.html"><![CDATA[<p>誰得技術ブログになりつつある</p>
+<p><img src="https://himajinx.github.io/img/0zunk8xcqygu2.png" alt="0zunk8xcqygu2" /></p>]]></content><author><name></name></author><category term="Mathematica" /><summary type="html"><![CDATA[M2MDを使ってみた 感想:画像は別途処理しないと厳しい]]></summary></entry><entry xml:lang="ja"><title type="html">おれのだいえっとろん</title><link href="http://localhost:4000/%E5%81%A5%E5%BA%B7/%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0/%E6%95%B0%E5%AD%A6/2023/12/05/my_diet.html" rel="alternate" type="text/html" title="おれのだいえっとろん" /><published>2023-12-05T00:00:00+09:00</published><updated>2023-12-05T00:00:00+09:00</updated><id>http://localhost:4000/%E5%81%A5%E5%BA%B7/%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0/%E6%95%B0%E5%AD%A6/2023/12/05/my_diet</id><content type="html" xml:base="http://localhost:4000/%E5%81%A5%E5%BA%B7/%E3%83%A2%E3%83%87%E3%83%AA%E3%83%B3%E3%82%B0/%E6%95%B0%E5%AD%A6/2023/12/05/my_diet.html"><![CDATA[<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fracD[expr_, m_, dd_, data_] := Module[{rdata = data},
+<p>今年はダイエットを頑張ったのでそこまでの試行錯誤を記録しておこうと思う</p>
+
+<ul>
+  <li>2020年
+    <ul>
+      <li>海外放浪開始。某国にて朝ビール、昼ビール、夜ビールの習慣を覚える。</li>
+    </ul>
+  </li>
+  <li>2021年
+    <ul>
+      <li>明らかに太り始めた。</li>
+      <li>某カナダ人に「wow you got fat」と煽られる。</li>
+    </ul>
+  </li>
+  <li>2022年
+    <ul>
+      <li>本気で痩せることを決意。</li>
+    </ul>
+  </li>
+  <li>2023年<br />
+3月：体重の運動方程式を考える。
+4月：一時帰国の際に体重計ったら変化がなく、挫折。<br />
+8月：観測ノイズを考慮した体重の運動方程式を完成させるが、飽きる。<br />
+11月：<code class="language-plaintext highlighter-rouge">Intermittent Fasting</code>が減量戦略として有効だと知る。<br /></li>
+</ul>
+
+<h3 id="反省">反省</h3>
+<p>2023年のダイエットは、3月から始まった。しかし、4月に一時帰国した際に体重計ったら変化がなく、挫折してしまった。<br />
+その原因は、摂取カロリーの推定に最大で20%程の誤差があることだった。<br />
+目標は20%の摂取カロリー減だったので、なるほど。といった感じ。外食では目分量でカロリー推定していたので押して知るべし。<br />
+8月から体重の運動方程式を改良することにした、が、毎日の食事量をメモるのはあまりに面倒で挫折。このやり方は飽きた。<br />
+<br />
+その後、11月に<code class="language-plaintext highlighter-rouge">Intermittent Fasting</code>の存在を知り、試したら1週間で2.5kg痩せたのでそのまま継続する事にした。<br />
+これはよかった。朝食以外を抜くのはキツいが不可能ではない。<br />2,3日に1回挫折して大量に食べても胃が小さくなっているのでそんなに食べられない。<br /></p>]]></content><author><name></name></author><category term="健康" /><category term="モデリング" /><category term="数学" /><summary type="html"><![CDATA[]]></summary></entry><entry xml:lang="ja"><title type="html">実数差分の実装 in Mathematica</title><link href="http://localhost:4000/mathematica/2023/04/28/ffd.html" rel="alternate" type="text/html" title="実数差分の実装 in Mathematica" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/mathematica/2023/04/28/ffd</id><content type="html" xml:base="http://localhost:4000/mathematica/2023/04/28/ffd.html"><![CDATA[<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fracD[expr_, m_, dd_, data_] := Module[{rdata = data},
    expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], 
        d -&gt; dd}])];
 fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]);
@@ -68,7 +101,7 @@ g[p_] := Normal@Series[(1 - x)^d, {x, 0, p}]
 
 <blockquote>
   <p>{1. k + 0.125 x[-1 + t] + 0.5 x[t], x[t], x[-1 + t], x[-2 + t], x[-3 + t]}</p>
-</blockquote>]]></content><author><name></name></author><category term="Mathematica" /><summary type="html"><![CDATA[誰得技術ブログになりつつある]]></summary></entry><entry xml:lang="ja"><title type="html">GUI操作の自動化 in Debian</title><link href="http://localhost:4000/linux/2023/04/28/xauto.html" rel="alternate" type="text/html" title="GUI操作の自動化 in Debian" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/linux/2023/04/28/xauto</id><content type="html" xml:base="http://localhost:4000/linux/2023/04/28/xauto.html"><![CDATA[<p>UWSCのようなツールはLinuxにあるかな？　と思ったらあるらしい。</p>
+</blockquote>]]></content><author><name></name></author><category term="Mathematica" /><summary type="html"><![CDATA[fracD[expr_, m_, dd_, data_] := Module[{rdata = data}, expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], d -&gt; dd}])]; fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]); fracI[expr_, m_, dd_, data_, pred_] := (Prepend[data, pd]) /. fraci[fracD[expr, m, dd, Prepend[data, pd]], pred]; g[p_] := Normal@Series[(1 - x)^d, {x, 0, p}]]]></summary></entry><entry xml:lang="ja"><title type="html">GUI操作の自動化 in Debian</title><link href="http://localhost:4000/linux/2023/04/28/xauto.html" rel="alternate" type="text/html" title="GUI操作の自動化 in Debian" /><published>2023-04-28T00:00:00+09:00</published><updated>2023-04-28T00:00:00+09:00</updated><id>http://localhost:4000/linux/2023/04/28/xauto</id><content type="html" xml:base="http://localhost:4000/linux/2023/04/28/xauto.html"><![CDATA[<p>UWSCのようなツールはLinuxにあるかな？　と思ったらあるらしい。</p>
 
 <p><a href="https://plaza.rakuten.co.jp/maikoki555blog/diary/202106110000/">ここ</a>を参考にした
 完成品は以下の通り、国内業者での発注自動化に使います。</p>

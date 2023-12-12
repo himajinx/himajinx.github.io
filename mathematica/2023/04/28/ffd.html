@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v3.9.3" />
 <meta property="og:title" content="実数差分の実装 in Mathematica" />
 <meta property="og:locale" content="ja" />
-<meta name="description" content="誰得技術ブログになりつつある" />
-<meta property="og:description" content="誰得技術ブログになりつつある" />
+<meta name="description" content="fracD[expr_, m_, dd_, data_] := Module[{rdata = data}, expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], d -&gt; dd}])]; fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]); fracI[expr_, m_, dd_, data_, pred_] := (Prepend[data, pd]) /. fraci[fracD[expr, m, dd, Prepend[data, pd]], pred]; g[p_] := Normal@Series[(1 - x)^d, {x, 0, p}]" />
+<meta property="og:description" content="fracD[expr_, m_, dd_, data_] := Module[{rdata = data}, expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], d -&gt; dd}])]; fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]); fracI[expr_, m_, dd_, data_, pred_] := (Prepend[data, pd]) /. fraci[fracD[expr, m, dd, Prepend[data, pd]], pred]; g[p_] := Normal@Series[(1 - x)^d, {x, 0, p}]" />
 <link rel="canonical" href="http://localhost:4000/mathematica/2023/04/28/ffd.html" />
 <meta property="og:url" content="http://localhost:4000/mathematica/2023/04/28/ffd.html" />
 <meta property="og:site_name" content="勉強メモ" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="実数差分の実装 in Mathematica" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-28T00:00:00+09:00","datePublished":"2023-04-28T00:00:00+09:00","description":"誰得技術ブログになりつつある","headline":"実数差分の実装 in Mathematica","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mathematica/2023/04/28/ffd.html"},"url":"http://localhost:4000/mathematica/2023/04/28/ffd.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-04-28T00:00:00+09:00","datePublished":"2023-04-28T00:00:00+09:00","description":"fracD[expr_, m_, dd_, data_] := Module[{rdata = data}, expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], d -&gt; dd}])]; fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]); fracI[expr_, m_, dd_, data_, pred_] := (Prepend[data, pd]) /. fraci[fracD[expr, m, dd, Prepend[data, pd]], pred]; g[p_] := Normal@Series[(1 - x)^d, {x, 0, p}]","headline":"実数差分の実装 in Mathematica","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/mathematica/2023/04/28/ffd.html"},"url":"http://localhost:4000/mathematica/2023/04/28/ffd.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="勉強メモ" /></head>
 <body><header class="site-header" role="banner">
@@ -47,9 +47,7 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>誰得技術ブログになりつつある</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fracD[expr_, m_, dd_, data_] := Module[{rdata = data},
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fracD[expr_, m_, dd_, data_] := Module[{rdata = data},
    expr /. (Flatten[{Table[Power[x, i] -&gt; rdata[[i + 1]], {i, 0, m}], 
        d -&gt; dd}])];
 fraci[fracd_, pred_] := Last@(Solve[fracd == pred, pd]);
